@@ -5,7 +5,7 @@ phases:
       nodejs: 12
     commands:
       - "touch .npmignore"
-    #   - "yarn global add gatsby"
+      - "npm -g install gulp"
   pre_build:
     commands:
       - "npm install --frozen-lockfile --production"
