@@ -15,7 +15,6 @@
         "dev": "gulp",
         "zip": "gulp zip",
         "pretest": "gulp build",
-        "deploy": "aws cloudfront create-invalidation --distribution-id EGYLKNUPSZFT7 --paths \"/*\"",
         "test": "gscan .",
         "test:ci": "gscan --fatal --verbose .",
         "preship": "yarn test",
