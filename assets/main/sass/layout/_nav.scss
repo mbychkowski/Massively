@@ -14,16 +14,18 @@
 			'transform 1s ease',
 			'opacity 1s ease'
 		));
-		background: rgba(255,255,255,0.175);
+        background: #393939; //rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
-		position: relative;
-		width: calc(100% - #{_size(padding) * 2});
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: calc(100% - #{_size(padding) * 2});
 		max-width: _size(wrapper);
-		z-index: 2;
+		z-index: 4;
 
 		ul {
 			&.links {
